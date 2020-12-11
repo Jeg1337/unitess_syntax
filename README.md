@@ -2,8 +2,16 @@
 
 syntax highlighing for UniTessssssssss
 
+## Usage
+
+Добавить папку **unitess** в `%USERPROFILE%\.vscode\extensions` и перезапустить VSCode
+
+### Смена кодировки по умолчанию
+
+Перейти в настройки (`Ctrl` + `,`), ввести `files.encoding` и выбрать `Cyrillic (Windows 1251)`
+
 ## Release Notes
 
 ### 1.0.0
 
-Initial release of unitess syntax highlighting
+Первая версия расширения
