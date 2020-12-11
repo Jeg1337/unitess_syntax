@@ -1,0 +1,41 @@
+{
+    "name": "unitess",
+    "displayName": "unitess",
+    "description": "unitess syntax highlighter",
+    "version": "0.0.1",
+    "publisher": "Jpeg1337",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "extensionPack": [
+        "Jpeg1337.unitess"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "unitess",
+                "aliases": [
+                    "Unitess",
+                    "unitess"
+                ],
+                "extensions": [
+                    ".uts"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "unitess",
+                "scopeName": "source.unitess",
+                "path": "./syntaxes/unitess.tmLanguage.json"
+            }
+        ]
+    },
+    "dependencies": {
+        "vsce": "^1.81.1"
+    }
+}

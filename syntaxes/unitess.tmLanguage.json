@@ -1,0 +1,108 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Unitess",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#storage"
+		},
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#variables"
+		},
+		{
+			"include": "#support"
+		},
+		{
+			"include": "entity"
+		},
+		{
+			"include": "constants"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+					"name": "keyword.control.unitess",
+					"match": "\\b(if|compare|Repeat|EndRepeat|when|default|EndScript|NoRequest|endif|else|Case|case|CaseOne|caseone|EndCase|endcase|Call|call)\\b"
+				},
+				{
+					"name": "keyword.operator.unitess",
+					"match": "\\b(OR|or|AND|and)\\b"
+				}
+		]
+		},
+		"storage": {
+			"patterns": [
+				{
+					"name": "storage.type.unitess",
+					"match": "\\b(Function|function|EndFunction|endfunction)\\b"
+				},
+				{
+					"name": "storage.modifier.unitess",
+					"match": "\\b(DriverSet|DriverGet)\\b"
+				}
+			]
+		},
+		"comments": {
+			"patterns": [{
+				"name": "comment.line.unitess",
+				"begin": "#",
+				"end": "\n"
+			}
+			]
+		},
+		"strings": {
+			"name": "string.quoted.double.unitess",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.unitess",
+					"match": "\\\\."
+				}
+			]
+		},
+		"variables": {
+			"patterns": [
+				{
+					"name": "variable.parameter.unitess",
+					"match": "mem_[0-9]{1,4}"
+				}
+			]
+		},
+		"support": {
+			"patterns": [
+				{
+					"name": "support.function.unitess",
+					"match": "\\b(math|string)\\b"
+				}
+			]
+		},
+		"entity": {
+			"patterns": [
+				{
+					"name": "entity.name.function.unitess",
+					"match": "\\b(rand|min|max|mean|size|range)\\b"
+				}
+			]
+		},
+		"constants": {
+			"patterns": [
+				{
+					"name": "constant.language.unitess",
+					"match": "\\b(true|false|TRUE|FALSE)\\b"
+				}
+			]
+		}
+	},
+	"scopeName": "source.unitess"
+}
