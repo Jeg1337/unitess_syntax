@@ -4,7 +4,7 @@ syntax highlighing for UniTessssssssss
 
 ## Usage
 
-Добавить папку **unitess** в `%USERPROFILE%\.vscode\extensions` и перезапустить VSCode
+Добавить папку **unitess_syntax** в `%USERPROFILE%\.vscode\extensions` и перезапустить VSCode
 
 ### Смена кодировки по умолчанию
 
