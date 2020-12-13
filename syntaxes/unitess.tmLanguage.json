@@ -32,7 +32,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.unitess",
-					"match": "\\b(if|compare|Repeat|EndRepeat|when|default|EndScript|NoRequest|endif|else|Case|case|CaseOne|caseone|EndCase|endcase|Call|call)\\b"
+					"match": "\\b(message|Message|MESSAGE|Tree|tree|treerules|TreeRules|Excel|excel|Correctionconfig|CorrectionGet|correctionget|correctionconfig|LoadReports|loadreports|if|compare|Repeat|repeat|EndRepeat|endrepeat|when|default|EndScript|NoRequest|endif|else|Case|case|CaseOne|caseone|EndCase|endcase|Call|call|report|delay|table)\\b"
 				},
 				{
 					"name": "keyword.operator.unitess",
@@ -44,7 +44,7 @@
 			"patterns": [
 				{
 					"name": "storage.type.unitess",
-					"match": "\\b(Function|function|EndFunction|endfunction)\\b"
+					"match": "\\b(Function|function|EndFunction|endfunction|Interrupt|EndInterrupt|interrupt|endinterrupt)\\b"
 				},
 				{
 					"name": "storage.modifier.unitess",
