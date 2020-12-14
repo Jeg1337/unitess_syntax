@@ -21,9 +21,6 @@
 			"include": "#support"
 		},
 		{
-			"include": "entity"
-		},
-		{
 			"include": "constants"
 		}
 	],
@@ -32,7 +29,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.unitess",
-					"match": "\\b(message|Message|MESSAGE|Tree|tree|treerules|TreeRules|Excel|excel|Correctionconfig|CorrectionGet|correctionget|correctionconfig|LoadReports|loadreports|if|compare|Repeat|repeat|EndRepeat|endrepeat|when|default|EndScript|NoRequest|endif|else|Case|case|CaseOne|caseone|EndCase|endcase|Call|call|report|delay|table)\\b"
+					"match": "\\b(message|Message|MESSAGE|Tree|tree|treerules|TreeRules|Excel|excel|Correctionconfig|CorrectionGet|correctionget|correctionconfig|LoadReports|loadreports|if|compare|Repeat|repeat|EndRepeat|endrepeat|when|default|EndScript|endscript|Endscript|NoRequest|endif|else|Case|case|CaseOne|caseone|EndCase|endcase|Call|call|report|delay|table)\\b"
 				},
 				{
 					"name": "keyword.operator.unitess",
@@ -48,7 +45,7 @@
 				},
 				{
 					"name": "storage.modifier.unitess",
-					"match": "\\b(DriverSet|DriverGet)\\b"
+					"match": "\\b(DriverSet|DriverGet|rand|size|mean|max|min|abs|acos|acosh|asin|asinh|atan|ceil|ci|cos|csc|exp|expml|floor|gamma|getexp|getman|int|ln|lnpl|log|log2|sec|si|sin|sinc|sinh|spike|step|tan|tanh|get|median|range|stdev|variance|sortup|sortdown|standart_uncertainty|Pi)\\b"
 				}
 			]
 		},
@@ -84,14 +81,6 @@
 				{
 					"name": "support.function.unitess",
 					"match": "\\b(math|string)\\b"
-				}
-			]
-		},
-		"entity": {
-			"patterns": [
-				{
-					"name": "entity.name.function.unitess",
-					"match": "\\b(rand|min|max|mean|size|range)\\b"
 				}
 			]
 		},
