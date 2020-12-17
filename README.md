@@ -4,14 +4,8 @@ syntax highlighing for UniTessssssssss
 
 ## Usage
 
-Добавить папку **unitess_syntax** в `%USERPROFILE%\.vscode\extensions` и перезапустить VSCode
+Р”РѕР±Р°РІРёС‚СЊ РїР°РїРєСѓ **unitess_syntax** РІ `%USERPROFILE%\.vscode\extensions` Рё РїРµСЂРµР·Р°РїСѓСЃС‚РёС‚СЊ VSCode
 
-### Смена кодировки по умолчанию
+### РЎРјРµРЅР° РєРѕРґРёСЂРѕРІРєРё РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ
 
-Перейти в настройки (`Ctrl` + `,`), ввести `files.encoding` и выбрать `Cyrillic (Windows 1251)`
-
-## Release Notes
-
-### 1.0.0
-
-Первая версия расширения
+РџРµСЂРµР№С‚Рё РІ РЅР°СЃС‚СЂРѕР№РєРё (`Ctrl` + `,`), РІРІРµСЃС‚Рё `files.encoding` Рё РІС‹Р±СЂР°С‚СЊ `Cyrillic (Windows 1251)`
