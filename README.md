@@ -9,7 +9,3 @@ syntax highlighing for UniTessssssssss
 ### Смена кодировки по умолчанию
 
 Перейти в настройки (`Ctrl` + `,`), ввести `files.encoding` и выбрать `Cyrillic (Windows 1251)`
-
-## Preview
-
-![preview](preview.png)
