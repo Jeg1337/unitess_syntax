@@ -45,7 +45,7 @@
 				},
 				{
 					"name": "storage.modifier.unitess",
-					"match": "\\b(DriverSet|DriverGet|rand|size|mean|max|min|abs|acos|acosh|asin|asinh|atan|ceil|ci|cos|csc|exp|expml|floor|gamma|getexp|getman|int|ln|lnpl|log|log2|sec|si|sin|sinc|sinh|spike|step|tan|tanh|get|median|range|stdev|variance|sortup|sortdown|standart_uncertainty|Pi)\\b"
+					"match": "\\b(DriverSet|sqrt|DriverGet|rand|size|mean|max|min|abs|acos|acosh|asin|asinh|atan|ceil|ci|cos|csc|exp|expml|floor|gamma|getexp|getman|int|ln|lnpl|log|log2|sec|si|sin|sinc|sinh|spike|step|tan|tanh|get|median|range|stdev|variance|sortup|sortdown|standart_uncertainty|Pi)\\b"
 				}
 			]
 		},
