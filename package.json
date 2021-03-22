@@ -2,7 +2,7 @@
     "name": "unitess",
     "displayName": "unitess",
     "description": "unitess syntax highlighter",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "Jpeg1337",
     "engines": {
         "vscode": "^1.52.0"
